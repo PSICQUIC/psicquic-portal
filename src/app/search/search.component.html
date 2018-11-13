@@ -1,0 +1,33 @@
+
+<div class="row">
+
+  <ul class="tabs" data-tabs id="search-tabs">
+    <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Search</a></li>
+    <li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">Advanced</a></li>
+  </ul>
+
+  <div class="tabs-content" data-tabs-content="search-tabs">
+
+    <!--TAB MAIN SEARCH SECTION-->
+    <div class="tabs-panel is-active" id="panel1">
+
+      <div class="row margin-top-large">
+        <div id="searchBox" class="columns small-11">
+          <textarea #query class="" type="text" placeholder="example"></textarea>
+        </div>
+        <input id="home-search-button" class="button margin-top-small" type="submit"
+                value="Search"/>
+      </div>
+    </div>
+
+    <!--TAB ADVANCED SECTION-->
+    <div class="tabs-panel" id="panel2">
+      <div class="row margin-top-large">
+        <p>Advanced box</p>
+
+      </div>
+    </div>
+
+
+  </div>
+</div>
