@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SearchComponent } from './search/search.component';
 import { HomeComponent } from './home/home.component';
+import { AdvancedSearchComponent } from './search/advanced-search/advanced-search.component';
+import { QueryBuilderModule } from 'angular2-query-builder';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -12,9 +15,13 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     HomeComponent,
     SearchComponent,
+    AdvancedSearchComponent,
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
+    QueryBuilderModule,
     AppRoutingModule
   ],
   providers: [],
