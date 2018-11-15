@@ -1,7 +1,8 @@
-<p>
-  advanced-search works!
-</p>
+  <div class="margin-top-large margin-bottom-large">
+    <query-builder [formControl] ='queryCtrl' [config]='config'></query-builder>
+  </div>
 
-<div class="row margin-top-large">
-  <query-builder [formControl] ='query' [config]='config'></query-builder>
-</div>
+  <div class="row margin-top-large">
+    <label>Output query:</label>
+    <textarea class="output" rows="10">{{query | json}}</textarea>
+  </div>

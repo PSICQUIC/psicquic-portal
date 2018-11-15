@@ -1,0 +1,31 @@
+.tabs-panel{
+  /*background-color: #672e7b4a;*/
+  background: #e9e5ea5e;
+
+}
+
+.tabs-title > a {
+  font-size: 0.9rem;
+  color: #3e3e3e;
+}
+.tabs-title > a:hover {
+  background: #672e7b85;/*#7d96a75c; /*#57b2b787*/
+  color: #0a0a0a;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+  color: #3e3e3e;
+  background: rgba(90, 46, 110, 0.29);
+  /* background: #f3eef3;*/
+  /*background: #e6e6e6;*/
+
+}
+
+.callout-advanced {
+  border-radius: 5px;
+  border: 1px solid #CCC;
+}
+.callout-search {
+  border: 1px solid #CCC;
+
+}

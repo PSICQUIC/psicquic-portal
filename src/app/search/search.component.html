@@ -1,5 +1,5 @@
 
-<div class="row">
+<div class="row expanded">
 
   <ul class="tabs" data-tabs id="search-tabs">
     <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Search</a></li>
@@ -10,21 +10,22 @@
 
     <!--TAB MAIN SEARCH SECTION-->
     <div class="tabs-panel is-active" id="panel1">
-
       <div class="row margin-top-large">
-        <div id="searchBox" class="columns small-11">
-          <textarea #query class="" type="text" placeholder="example"></textarea>
+        <div class="columns medium-12 ">
+            <div id="searchBox" class="columns medium-11">
+              <textarea #query class="" type="text" placeholder="example"></textarea>
+            </div>
+            <input id="home-search-button" class="button margin-top-small" type="submit" value="Search"/>
         </div>
-        <input id="home-search-button" class="button margin-top-small" type="submit"
-                value="Search"/>
       </div>
     </div>
 
     <!--TAB ADVANCED SECTION-->
     <div class="tabs-panel" id="panel2">
       <div class="row margin-top-large">
-        <p>Advanced box</p>
-        <app-advanced-search></app-advanced-search>
+        <div class="columns medium-12 callout-advanced">
+          <app-advanced-search></app-advanced-search>
+        </div>
       </div>
     </div>
 
