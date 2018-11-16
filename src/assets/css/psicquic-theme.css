@@ -27,7 +27,7 @@
 [_nghost-c4] .q-remove-button[_ngcontent-c4] {
   color: #B3415D;
   width: 31px;
-  background-color: white !important;
+  background-color: transparent !important;
 }
 
 [_nghost-c4] .q-tree[_ngcontent-c4] {

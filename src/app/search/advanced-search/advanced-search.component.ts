@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import {AfterViewInit, Component, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import { QueryBuilderConfig} from 'angular2-query-builder';
 import { FormControl } from '@angular/forms';
 
